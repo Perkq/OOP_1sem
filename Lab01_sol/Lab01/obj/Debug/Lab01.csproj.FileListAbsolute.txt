@@ -1,0 +1,7 @@
+D:\Прога\2 курс\ООП\Labi\Lab01_sol\Lab01\bin\Debug\Lab01.exe.config
+D:\Прога\2 курс\ООП\Labi\Lab01_sol\Lab01\bin\Debug\Lab01.exe
+D:\Прога\2 курс\ООП\Labi\Lab01_sol\Lab01\bin\Debug\Lab01.pdb
+D:\Прога\2 курс\ООП\Labi\Lab01_sol\Lab01\obj\Debug\Lab01.csproj.AssemblyReference.cache
+D:\Прога\2 курс\ООП\Labi\Lab01_sol\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
+D:\Прога\2 курс\ООП\Labi\Lab01_sol\Lab01\obj\Debug\Lab01.exe
+D:\Прога\2 курс\ООП\Labi\Lab01_sol\Lab01\obj\Debug\Lab01.pdb
