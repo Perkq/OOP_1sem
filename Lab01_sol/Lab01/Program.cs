@@ -91,6 +91,156 @@ namespace Lab01
             stringBuilder.Insert(0, "Hello ");
             stringBuilder.Remove(6, 4);
             Console.WriteLine(stringBuilder);
+
+            // Задание 3
+
+            int[,] arr = { { 1, 1, 1 }, { 0, 0, 0 }, { 1, 0, 1 } };
+            int rows = arr.GetUpperBound(0) + 1;
+            int columns = arr.Length / rows;
+            for (int rrr = 0; rrr < rows; rrr++)
+            {
+                for (int ccc = 0; ccc < columns; ccc++)
+                {
+                    Console.Write($"{arr[rrr, ccc]} \t");
+                }
+                Console.WriteLine();
+            }
+
+            string[] strArray = { "Привет", " как ", "дела?" };
+
+            for (int count = 0; count < strArray.Length; count++)
+            {
+                Console.Write(strArray[count]);
+            }
+            Console.WriteLine(" Длинна массива: " + strArray.Length);
+
+            Console.Write("Введите позицию и значение: ");
+            int index = Convert.ToInt32(Console.ReadLine());
+            string strChange = Console.ReadLine();
+
+            strArray[index] = strChange;
+            for (int q = 0; q < strArray.Length; q++)
+            {
+                Console.WriteLine(strArray[q]);
+            }
+
+            float[][] flArray = new float[3][];
+            flArray[0] = new float[2];
+            flArray[1] = new float[3];
+            flArray[2] = new float[4];
+
+            Console.Write("Введите значения первой строки: ");
+            for (int count = 0; count < 2; count++)
+            {
+                flArray[0][count] = Convert.ToSingle(Console.ReadLine());
+            }
+
+            Console.Write("Введите значения второй строки: ");
+            for (int count = 0; count < 3; count++)
+            {
+                flArray[1][count] = Convert.ToSingle(Console.ReadLine());
+            }
+
+            Console.Write("Введите значения третьей строки: ");
+            for (int count = 0; count < 4; count++)
+            {
+                flArray[2][count] = Convert.ToSingle(Console.ReadLine());
+            }
+
+            Console.WriteLine("Вывод ступенчатого массива: ");
+            for (int count = 0; count < 2; count++)
+            {
+                Console.Write(flArray[0][count] + " ");
+            }
+
+            Console.WriteLine();
+            for (int count = 0; count < 3; count++)
+            {
+                Console.Write(flArray[1][count] + " ");
+            }
+
+            Console.WriteLine();
+            for (int count = 0; count < 4; count++)
+            {
+                Console.Write(flArray[2][count] + " ");
+            }
+
+            Console.WriteLine();
+
+            var implArr = new[] { 1, 2, 3 };
+            var implStr = "String";
+
+            // Кортежи
+
+            (int intNum, string strTup, char charTup, string strSecTup, ulong ulongNum) tuple = (34, "first string", 'q', "second string", 53464362);
+            Console.WriteLine("Вывод всех элементов кортежа: " + tuple.intNum + " " + tuple.strTup + " " + tuple.charTup + " " + tuple.strSecTup + " " + tuple.ulongNum);
+            Console.WriteLine("Вывод 1, 3, 4 элементов кортежа: " + tuple.intNum + " " + tuple.charTup + " " + tuple.strSecTup);
+
+            var (unboxInt, unboxStr, unboxChar, unboxSecStr, unboxUlong) = (tuple.intNum, tuple.strTup, tuple.charTup, tuple.strSecTup, tuple.ulongNum);
+            unboxInt = tuple.intNum;
+
+            (int Num, bool Bool) firstTup = (10, true);
+            (int Num, bool Bool) secTup = (10, true);
+            Console.WriteLine($"Сравнение кортежей на равенство: {firstTup == secTup}");
+            Console.WriteLine($"Сравнение кортежей на неравенство: {firstTup != secTup}");
+
+            int[] locArr = { 6, 5, 7, 10 };
+            string locStr = "Привет Андрей";
+            Console.WriteLine(localFunc(locArr, locStr));
+
+            dynamic localFunc(int[] array, string strLoc)
+            {
+                int max = array[0];
+                int min = array[0];
+                int sum = 0;
+                char firstLetter = strLoc[0];
+                foreach (int arrEl in array)
+                {
+                    if (arrEl > max)
+                    {
+                        max = arrEl;
+                    }
+                    else if (arrEl < min)
+                    {
+                        min = arrEl;
+                    }
+                    sum += arrEl;
+                }
+
+                (int maxNum, int minNum, int sumNum, char firstLet) retTup = (max, min, sum, firstLetter);
+
+                return retTup;
+            }
+
+            Console.WriteLine(funCheck());
+            string funCheck()
+            {
+                int maxInt = int.MaxValue;
+
+                try
+                {
+                    checked
+                    {
+                        Console.WriteLine(maxInt + 1);
+                    }
+                }
+                catch (OverflowException exception)
+                {
+                    return exception.Message;
+                }
+                return "Нет ошибок";
+            }
+
+            Console.WriteLine(funUncheck());
+            int funUncheck()
+            {
+                int maxInt = int.MaxValue;
+
+                unchecked
+                {
+                    return (maxInt + 1);
+                }
+            }
         }
     }
 }
