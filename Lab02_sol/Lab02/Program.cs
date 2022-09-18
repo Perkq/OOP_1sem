@@ -72,6 +72,29 @@ namespace Lab02
             Console.WriteLine("Кол-во записанных строк: " + numberOfStrings);
         }
 
+        public int Equals(SuperString secondInst)
+        {
+            if(symbolsNumber == secondInst.symbolsNumber)
+            {
+                Console.WriteLine("Кол-во символов одинаковое");
+            }
+            else
+            {
+                Console.WriteLine("Кол-во символов разное");
+            }
+
+            if (stringValue == secondInst.stringValue)
+            {
+                Console.WriteLine("Строки одинаковые");
+            }
+            else
+            {
+                Console.WriteLine("Строки разные");
+            }
+
+            return 0;
+        }
+
         public int getNumOfSymbols()
         {
             if(symbolsNumber != 0)
@@ -133,7 +156,7 @@ namespace Lab02
             strings[2] = new SuperString("world", 5);
 
             
-            Console.Write("Задайте кол-во символов в строке: ");
+            /*Console.Write("Задайте кол-во символов в строке: ");
             int number = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Список строк с данным кол-вом символов в строке: ");
             foreach(SuperString str in strings)
@@ -153,7 +176,12 @@ namespace Lab02
                 {
                     Console.WriteLine(str.StringValue);
                 }
-            }
+            }*/
+
+            Console.Write("Введите номеров объектов в массиве, которые хотите сравнить: ");
+            int firstNum = Convert.ToInt32(Console.Read());
+           // int secondNum = Convert.ToInt32(Console.ReadLine());
+            strings[firstNum - 1].Equals(strings[1]);
 
             /*Console.WriteLine(Example.StringValue);
             Example.changeSymbol(3, 'X');
