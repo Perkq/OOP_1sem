@@ -13,45 +13,45 @@ namespace Lab01
             // Задание 1
 
             Console.WriteLine("Введите значения типа: int, string, char, double, bool, byte, sbyte, decimal, float, short, ushort, uint, ulong");
-            int i = Convert.ToInt32(Console.ReadLine());
+            int iNum = Convert.ToInt32(Console.ReadLine());
             string str = Console.ReadLine();
-            char c = Convert.ToChar(Console.ReadLine());
-            double f = Convert.ToDouble(Console.ReadLine());
-            bool lol = Convert.ToBoolean(Console.ReadLine());
-            byte b = Convert.ToByte(Console.ReadLine());
-            sbyte sb = Convert.ToSByte(Console.ReadLine());
-            decimal dc = Convert.ToDecimal(Console.ReadLine());
-            float fl = Convert.ToSingle(Console.ReadLine());
-            short sh = Convert.ToInt16(Console.ReadLine());
-            ushort ush = Convert.ToUInt16(Console.ReadLine());
-            uint ui = Convert.ToUInt32(Console.ReadLine());
-            ulong ul = Convert.ToUInt64(Console.ReadLine());
+            char cSymb = Convert.ToChar(Console.ReadLine());
+            double dNum = Convert.ToDouble(Console.ReadLine());
+            bool bl = Convert.ToBoolean(Console.ReadLine());
+            byte bNum = Convert.ToByte(Console.ReadLine());
+            sbyte sbNum = Convert.ToSByte(Console.ReadLine());
+            decimal dcNum = Convert.ToDecimal(Console.ReadLine());
+            float flNum = Convert.ToSingle(Console.ReadLine());
+            short shNum = Convert.ToInt16(Console.ReadLine());
+            ushort ushNum = Convert.ToUInt16(Console.ReadLine());
+            uint uiNum = Convert.ToUInt32(Console.ReadLine());
+            ulong ulNum = Convert.ToUInt64(Console.ReadLine());
             //nint ni = Convert.ToInt32(Console.ReadLine());
             //nuint nui = Convert.ToUInt32(Console.ReadLine());
 
-            Console.WriteLine(i + " " + str + " " + c + " "+ f + " " + lol + " " + b + " " + sb + " " + dc + " " + fl + " " + sh + " " + ush + " " + ui + " " + ul);
+            Console.WriteLine(iNum + " " + str + " " + cSymb + " "+ dNum + " " + bl + " " + bNum + " " + sbNum + " " + dcNum + " " + flNum + " " + shNum + " " + ushNum + " " + uiNum + " " + ulNum);
 
             // Неявные преобразования
-            long bigNum = i;
-            int bigNumInt = sh;
-            ulong bigUNum = ul;
-            uint bigUInt = ui;
-            double bigNumDouble = fl;
+            long bigNum = iNum;
+            int bigNumInt = shNum;
+            ulong bigUNum = ulNum;
+            uint bigUInt = uiNum;
+            double bigNumDouble = flNum;
 
             // Явные преобразования 
-            sbyte sByteNum = (sbyte)b;
-            uint uIntNum = (uint)i;
-            decimal decNum = (decimal)i;
-            float flNum = (float)f;
-            ushort uShNum = (ushort)sh;
-            float flNum2 = (float)f;
+            sbyte sByteNum = (sbyte)bNum;
+            uint uIntNum = (uint)iNum;
+            decimal decNum = (decimal)iNum;
+            float flNum1 = (float)dNum;
+            ushort uShNum = (ushort)shNum;
+            float flNum2 = (float)dNum;
 
-            Console.WriteLine("double до преобразования во float: " + f + " после: " + flNum2);
+            Console.WriteLine("double до преобразования во float: " + dNum + " после: " + flNum2);
 
             // Упаковка и распаковка значимых типов
-            Object Example = i;
+            Object Example = iNum;
             Example = 123;
-            i = (int)Example;
+            iNum = (int)Example;
 
             // NullAble
             int? qweqw = null;
@@ -179,6 +179,7 @@ namespace Lab01
             var (unboxInt, unboxStr, unboxChar, unboxSecStr, unboxUlong) = (tuple.intNum, tuple.strTup, tuple.charTup, tuple.strSecTup, tuple.ulongNum);
             unboxInt = tuple.intNum;
 
+            // Сравнение кортежей
             (int Num, bool Bool) firstTup = (10, true);
             (int Num, bool Bool) secTup = (10, true);
             Console.WriteLine($"Сравнение кортежей на равенство: {firstTup == secTup}");
@@ -188,6 +189,7 @@ namespace Lab01
             string locStr = "Привет Андрей";
             Console.WriteLine(localFunc(locArr, locStr));
 
+            // Работа с локальными функциями
             dynamic localFunc(int[] array, string strLoc)
             {
                 int max = array[0];
