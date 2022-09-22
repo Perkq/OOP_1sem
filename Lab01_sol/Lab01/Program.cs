@@ -50,7 +50,7 @@ namespace Lab01
 
             // Упаковка и распаковка значимых типов
             Object Example = iNum;
-            Example = 123;
+            
             iNum = (int)Example;
 
             // NullAble

@@ -95,6 +95,16 @@ namespace Lab02
             return 0;
         }
 
+        private int GetHashCode()
+        {
+            var hash = 0;
+            foreach(char temp in stringValue)
+            {
+                hash += Convert.ToInt32(temp);
+            }
+            return Convert.ToInt32(hash);
+        }
+
         public int getNumOfSymbols()
         {
             if(symbolsNumber != 0)
@@ -130,6 +140,14 @@ namespace Lab02
             return 0;
         }
 
+        public int ToString()
+        {
+            Console.WriteLine($"Id: {id}");
+            Console.WriteLine($"Строка: {stringValue}");
+            Console.WriteLine($"Кол-во символов: {symbolsNumber}");
+            return 0;
+        }
+
         public bool findWord(string userWord)
         {
             string[] arr;
@@ -154,7 +172,6 @@ namespace Lab02
             strings[0] = new SuperString("Hello", 5);
             strings[1] = new SuperString("dear", 4);
             strings[2] = new SuperString("world", 5);
-
             
             /*Console.Write("Задайте кол-во символов в строке: ");
             int number = Convert.ToInt32(Console.ReadLine());
@@ -179,9 +196,14 @@ namespace Lab02
             }*/
 
             Console.Write("Введите номеров объектов в массиве, которые хотите сравнить: ");
-            int firstNum = Convert.ToInt32(Console.Read());
-           // int secondNum = Convert.ToInt32(Console.ReadLine());
-            strings[firstNum - 1].Equals(strings[1]);
+            int firstNum = Convert.ToInt32(Console.ReadLine());
+            int secondNum = Convert.ToInt32(Console.ReadLine());
+            strings[firstNum - 1].Equals(strings[secondNum - 1]);
+
+            Console.WriteLine("Введите номер строки, которую хотите вывести: ");
+            int numOfStrings = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Вывод информации о строке: ");
+            strings[numOfStrings - 1].ToString();
 
             /*Console.WriteLine(Example.StringValue);
             Example.changeSymbol(3, 'X');
