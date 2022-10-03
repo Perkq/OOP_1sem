@@ -41,7 +41,7 @@ namespace Lab02
             Console.Write("Введите номеров объектов в массиве, которые хотите сравнить: ");
             int firstNum = Convert.ToInt32(Console.ReadLine());
             int secondNum = Convert.ToInt32(Console.ReadLine());
-            strings[firstNum - 1].Equals(strings[secondNum - 1]);
+            Console.WriteLine(strings[firstNum - 1].Equals(strings[secondNum - 1]));
 
             Console.WriteLine("Введите номер строки, которую хотите вывести: ");
             int numOfStrings = Convert.ToInt32(Console.ReadLine());

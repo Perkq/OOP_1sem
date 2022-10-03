@@ -85,27 +85,17 @@ namespace Lab02
             Console.WriteLine("Кол-во записанных строк: " + numberOfStrings);
         }
 
-        public int Equals(SuperString secondInst)
+
+        public override bool Equals(object obj)
         {
-            if (symbolsNumber == secondInst.symbolsNumber)
-            {
-                Console.WriteLine("Кол-во символов одинаковое");
-            }
-            else
-            {
-                Console.WriteLine("Кол-во символов разное");
-            }
+            if (obj == null) return false;
+            if (obj.GetType() != this.GetType()) return false;
 
-            if (stringValue == secondInst.stringValue)
-            {
-                Console.WriteLine("Строки одинаковые");
-            }
-            else
-            {
-                Console.WriteLine("Строки разные");
-            }
-
-            return 0;
+            SuperString str = obj as SuperString;
+            if (str == null)
+                return false;
+            return this.stringValue == str.stringValue && this.symbolsNumber == str.symbolsNumber;
+               
         }
 
         public override int GetHashCode()
