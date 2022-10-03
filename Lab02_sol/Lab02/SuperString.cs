@@ -74,7 +74,7 @@ namespace Lab02
         }
 
         // Закрытый конструктор
-        private SuperString(int symbolsNumber) : this()
+        SuperString(int symbolsNumber) : this()
         {
             this.symbolsNumber = symbolsNumber;
         }
