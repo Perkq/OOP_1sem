@@ -20,7 +20,7 @@ namespace Lab_04
 
         public virtual void tellInfo()
         {
-            Console.WriteLine("Я режиссер");
+            Console.WriteLine("Я режиссер всего подряд");
         }
 
         public override bool Equals(object obj)
@@ -63,7 +63,7 @@ namespace Lab_04
 
         public override void tellInfo()
         {
-            Console.WriteLine("Я режиссер");
+            Console.WriteLine("А я режиссер только фильмов");
         }
 
         public Film(string curRating, string curGender) : base(curGender)

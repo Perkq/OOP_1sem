@@ -17,10 +17,10 @@ namespace Lab_04
 
             Film testFilm = new Film("Топчик", "Мужик");
 
-            object polimorph = testFilm as Producer;
-            if(polimorph != null)
+            object testPolimorph = testFilm as Producer;
+            if(testPolimorph != null)
             {
-                Console.WriteLine(print.IAmPrinting(polimorph));
+                Console.WriteLine(print.IAmPrinting(testPolimorph));
             }
             else
             {
