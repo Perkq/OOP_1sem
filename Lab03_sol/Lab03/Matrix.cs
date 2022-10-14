@@ -46,6 +46,19 @@ namespace Lab03
         }
 
 
+       /* public string GetElByIndex(int index)
+        {
+            int count = 0;
+            foreach (string temp in collection)
+            {
+                if (count == index) return temp;
+                count++;
+            }
+
+            return "Index out of range";
+        }*/
+
+
         // Конструктор 
         public Matrix(int row, int col)
         {
@@ -72,7 +85,7 @@ namespace Lab03
                     temp[i, q] = frst[i, q] - scnd[i, q];
                 }
             }
-
+            
             return temp;
         }
 
@@ -164,7 +177,7 @@ namespace Lab03
             private readonly int id = 123;
             private readonly string organization = "БГТУ";
 
-            public void getDev()
+            public void GetDev()
             {
                 Console.WriteLine("Id: " + id);
                 Console.WriteLine("Организация: " + organization);
@@ -179,7 +192,7 @@ namespace Lab03
             private readonly string FIO = "Нехаёнок Артём Олегович";
             private readonly string department = "2-4 ПОИТ";
 
-            public void getDev()
+            public void GetDev()
             {
                 Console.WriteLine("Id: " + id);
                 Console.WriteLine("ФИО: " + FIO);

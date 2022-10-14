@@ -116,8 +116,8 @@ namespace Lab03
                     break;
                 case 5:
                     Matrix.Developer testDev = new Matrix.Developer();
-                    testDev.getDev();
-                    Matrix.org.getDev();
+                    testDev.GetDev();
+                    Matrix.org.GetDev();
                     break;
             }
         }

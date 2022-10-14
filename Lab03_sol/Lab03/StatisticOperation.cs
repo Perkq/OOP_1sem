@@ -8,7 +8,7 @@ namespace Lab03
 {
     static class StatisticOperation
     {
-        public static double sumElems(Matrix cur)
+        public static double SumElems(Matrix cur)
         {
             double sum = 0;
             for (int i = 0; i < cur.RowsNum; i++)
@@ -22,7 +22,7 @@ namespace Lab03
             return sum;
         }
 
-        public static double minMaxDif(Matrix cur)
+        public static double MinMaxDif(Matrix cur)
         {
             double max = cur[0,0];
             double min = cur[0, 0];
@@ -39,13 +39,13 @@ namespace Lab03
             return max - min;
         }
 
-        public static int getNumElem(Matrix cur)
+        public static int GetNumElem(Matrix cur)
         {
             return cur.RowsNum * cur.ColNum;
         }
 
         
-        public static int getIntSumRow(Matrix cur, int row)
+        public static int GetIntSumRow(Matrix cur, int row)
         {
             int intSum = 0;
             for(int i = 0; i < cur.ColNum; i++)
@@ -60,7 +60,7 @@ namespace Lab03
             return intSum;
         }
 
-        public static bool getSqareMatr(Matrix cur)
+        public static bool GetSqareMatr(Matrix cur)
         {
             if(cur.RowsNum == cur.ColNum)
             {
@@ -71,7 +71,7 @@ namespace Lab03
                 }
         }
 
-        public static bool checkSymb(string str, char symb)
+        public static bool CheckSymb(string str, char symb)
         {
             for(int i = 0; i < str.Length; i++)
             {
