@@ -81,31 +81,13 @@ namespace Lab05
         }
     }
 
-    class News : TVProgram, IProgramGoes
+    partial class News : TVProgram, IProgramGoes
     {
         private string topic;
-        /*public string Topic
-        {
-            get { return topic; }
-            set
-            {
-                topic = value;
-            }
-        }*/
 
         public News(NewsTopic curTopic, int curDuration) : base(curDuration)
         {
             topic = curTopic.NewsTop;
-        }
-
-        public override string ToString()
-        {
-            return $"Тип: {this.GetType()}\n Длительность: {Duration}\n Тема: {topic}";
-        }
-
-        public void GoProgram()
-        {
-            Console.WriteLine("Воспроизводятся новости");
         }
     }
 }
