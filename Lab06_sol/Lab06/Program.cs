@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace Lab05
 {
@@ -77,15 +78,21 @@ namespace Lab05
                 int[] arr = new int[8];
                 arr[10] = 10;
             }
-            catch (Exception e) when (e.Source.Length < 8)
+            catch (Exception e) when (e.Source.Length < 6)
             {
-                Console.WriteLine("ок\n");
+                Console.WriteLine(e.Source);
             }
-            catch (Exception e)
+            catch
             {
-                Console.WriteLine(e.Message + "\n");
+                Console.WriteLine("Что-то пошло не так\n");
 
             }
+
+            Debugger.Break();
+
+            int debugTest = 10;
+
+            Debug.Assert(debugTest == 11, "Переменная не равна 10");
 
         }
     }
