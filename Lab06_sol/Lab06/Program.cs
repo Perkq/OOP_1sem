@@ -78,7 +78,7 @@ namespace Lab05
                 int[] arr = new int[8];
                 arr[10] = 10;
             }
-            catch (Exception e) when (e.Source.Length < 6)
+            catch (Exception e) when (e.Source != "Lab06")
             {
                 Console.WriteLine(e.Source);
             }
