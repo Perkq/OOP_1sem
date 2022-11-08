@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +19,7 @@ namespace Lab07
         private int rows;
         private int columns;
         public double[,] matrix;
-        List<T> list = new List<T>();
+        public List<T> list = new List<T>();
 
         public int RowsNum
         {
@@ -53,8 +54,6 @@ namespace Lab07
             }
         }
 
-
-
         public List<T> Add(T sec)
         {
 
@@ -70,17 +69,11 @@ namespace Lab07
 
         public void Show()
         {
-            Console.WriteLine("\nСодержимое матрицы\n");
-            for (int i = 0; i < this.rows; i++)
+            foreach(T temp in list)
             {
-                for (int q = 0; q < this.columns; q++)
-                {
-                    Console.WriteLine(this[i, q]);
-                }
-                Console.WriteLine();
+                Console.WriteLine(temp);
             }
         }
-
 
         // Конструктор 
         public Matrix(int row, int col)
@@ -223,5 +216,7 @@ namespace Lab07
 
             }
         }
+
+        
     }
 }
