@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Lab07
 {
@@ -217,6 +218,53 @@ namespace Lab07
             }
         }
 
-        
+        public Matrix<T> GetFile()
+        {
+            string path = "lab7.txt";
+            StreamReader reader = new StreamReader(path);
+            string? line;
+            line = reader.ReadLine();
+            string[] arr = line.Split(' ');
+            Matrix<T> temp = new Matrix<T>(Convert.ToInt32(arr[0]), Convert.ToInt32(arr[1]));
+            for (int i = 0; i < temp.rows; i++)
+            {
+                line = reader.ReadLine();
+                string[] arrTmp = line.Split(' ');
+
+                for (int q = 0; q < temp.columns; q++)
+                {
+                    matrix[i, q] = Convert.ToInt32(arrTmp[q]);
+                }
+            }
+
+            line = reader.ReadLine();
+            string[] arrTmpObj = line.Split(' ');
+            for(int i = 0; i < arrTmpObj.Length; i++)
+            {
+                T tmp = (T)Convert.ChangeType(arrTmpObj[i].GetType(), list.GetType());
+                temp.list.Add(tmp);
+            }
+
+            return temp;
+        }
+
+        public void InFile()
+        {
+            string path = "lab7.txt";
+            StreamWriter writer = new StreamWriter(path);
+            writer.WriteLine(rows + " " + columns);
+            for (int i = 0; i < rows; i++)
+            {
+                for (int q = 0; q < columns; q++)
+                {
+                    writer.Write(matrix[i, q] + " ");
+                }
+                writer.WriteLine();
+            }
+            foreach(T temp in list)
+            {
+                writer.Write(temp + " ");
+            }
+        }
     }
 }
