@@ -11,7 +11,8 @@ namespace Lab07
     {
         static void Main(string[] args)
         {
-            try { 
+            try 
+            { 
                 Console.Write("Введите номер проверки: ");
                 switch (Convert.ToInt32(Console.ReadLine()))
                 {
@@ -93,7 +94,6 @@ namespace Lab07
                                 testEq[i, q] = i;
                                 testEqSec[i, q] = q;
                             }
-
                         }
                         Console.WriteLine(testEq != testEqSec);
                         Console.WriteLine(testEq == testEqSec);
@@ -137,6 +137,17 @@ namespace Lab07
                 objExample.Add(frst);
                 objExample.Add(sec);
                 objExample.Add(thrd);
+
+                for (int i = 0; i < objExample.RowsNum; i++)
+                {
+                    for (int q = 0; q < objExample.ColNum; q++)
+                    {
+                        objExample[i, q] = i;
+                        objExample[i, q] = q;
+                    }
+                }
+                objExample.InFile();
+
             }
             catch
             {

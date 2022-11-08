@@ -250,8 +250,8 @@ namespace Lab07
 
         public void InFile()
         {
-            string path = "lab7.txt";
-            StreamWriter writer = new StreamWriter(path);
+            string path = @"D:\Прога\2 курс\ООП\OOP_1sem\Lab07_sol\Lab07\lab7.txt";
+            StreamWriter writer = new StreamWriter(path, true, System.Text.Encoding.Default);
             writer.WriteLine(rows + " " + columns);
             for (int i = 0; i < rows; i++)
             {
