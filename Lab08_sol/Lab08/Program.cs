@@ -24,6 +24,18 @@ namespace Lab08
             b2.turnOn += Ev.CheckVoltage;
             b2.GiveVoltage(100);
 
+
+            // Методы строк
+            Console.WriteLine("\n Методы строк \n");
+
+            string DoOperation(string str, Func<string, string> operation) => operation(str);
+
+            string example = "He?llo world";
+            Console.WriteLine(DoOperation(example, Str.RemoveS));
+            Console.WriteLine(DoOperation(example, Str.AddToString));
+            Console.WriteLine(DoOperation(example, Str.RemoveSpase));
+            Console.WriteLine(DoOperation(example, Str.Upper));
+            Console.WriteLine(DoOperation(example, Str.Lower));
         }
     }
 }
