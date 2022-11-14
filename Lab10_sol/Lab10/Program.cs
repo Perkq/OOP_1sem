@@ -78,9 +78,25 @@ namespace Laba10
 
                     // Упорядоченный массив по первому слову
                     var orderdByFirstWord = from s in strList orderby s.StringValue.Split()[0] select s;
-
                     break;
-        }
+                case 4:
+                    List<SuperString> strList2 = new List<SuperString>();
+                    strList2.Add(new SuperString("Hello world"));
+                    strList2.Add(new SuperString("How do you do?"));
+                    strList2.Add(new SuperString("Mommy daddy"));
+                    strList2.Add(new SuperString("all my friends are toxic"));
+                    strList2.Add(new SuperString("i need new friends"));
+                    strList2.Add(new SuperString("i feel kinda empty"));
+                    strList2.Add(new SuperString("i'm drowning let me breath"));
+                    strList2.Add(new SuperString("i'm better off all by myself"));
+                    strList2.Add(new SuperString("baby oh i'll make you know"));
+                    strList2.Add(new SuperString("you took my pride away"));
+                    strList2.Add(new SuperString("but you cannot take my life"));
+
+                    int strsNum = strList2.OrderBy(str => str.GetNumOfSymbols()).Where(str => str.StringValue.Split().Length > 3).Skip(2).GroupBy(str => str.GetNumOfSymbols() > 18).Count();
+                    Console.WriteLine(strsNum);
+                    break;
+            }
 
         }
     }
