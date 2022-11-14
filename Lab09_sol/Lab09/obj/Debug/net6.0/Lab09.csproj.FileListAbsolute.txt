@@ -1,0 +1,15 @@
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\bin\Debug\net6.0\Lab09.exe
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\bin\Debug\net6.0\Lab09.deps.json
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\bin\Debug\net6.0\Lab09.runtimeconfig.json
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\bin\Debug\net6.0\Lab09.dll
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\bin\Debug\net6.0\Lab09.pdb
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\obj\Debug\net6.0\Lab09.csproj.AssemblyReference.cache
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\obj\Debug\net6.0\Lab09.GeneratedMSBuildEditorConfig.editorconfig
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\obj\Debug\net6.0\Lab09.AssemblyInfoInputs.cache
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\obj\Debug\net6.0\Lab09.AssemblyInfo.cs
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\obj\Debug\net6.0\Lab09.csproj.CoreCompileInputs.cache
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\obj\Debug\net6.0\Lab09.dll
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\obj\Debug\net6.0\refint\Lab09.dll
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\obj\Debug\net6.0\Lab09.pdb
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\obj\Debug\net6.0\Lab09.genruntimeconfig.cache
+D:\Прога\2 курс\ООП\OOP_1sem\Lab09_sol\Lab09\obj\Debug\net6.0\ref\Lab09.dll
