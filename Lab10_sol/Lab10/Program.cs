@@ -3,9 +3,24 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Channels;
+using System.Threading.Tasks.Dataflow;
 
 namespace Laba10
 {
+
+    class DataKeeper
+    {
+        public int number;
+        public string name;
+
+        public DataKeeper(int num, string nm)
+        {
+            number = num;
+            name = nm;
+        }
+    }
+
+
     internal class Program
     {
         private static void Main(string[] args)
@@ -95,6 +110,22 @@ namespace Laba10
 
                     int strsNum = strList2.OrderBy(str => str.GetNumOfSymbols()).Where(str => str.StringValue.Split().Length > 3).Skip(2).GroupBy(str => str.GetNumOfSymbols() > 18).Count();
                     Console.WriteLine(strsNum);
+                    break;
+                case 5:
+                    List<SuperString> strList5 = new List<SuperString>();
+                    strList5.Add(new SuperString("Hello"));
+                    strList5.Add(new SuperString("neighbour "));
+
+                    List<DataKeeper> data = new List<DataKeeper>();
+                    data.Add(new DataKeeper(5, "Artsiom"));
+                    data.Add(new DataKeeper(10, "Kolya"));
+                    data.Add(new DataKeeper(8, "Svyat"));
+
+                    var union = from str1 in strList5
+                                join dat in data on str1.GetNumOfSymbols() equals dat.number
+                                select new { strValue =  str1.StringValue, uName = dat.name};
+
+                    foreach (var tmp in union) Console.WriteLine($"{tmp.strValue} - {tmp.uName}");
                     break;
             }
 
