@@ -1,0 +1,15 @@
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\bin\Debug\net6.0\Lab10.exe
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\bin\Debug\net6.0\Lab10.deps.json
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\bin\Debug\net6.0\Lab10.runtimeconfig.json
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\bin\Debug\net6.0\Lab10.dll
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\bin\Debug\net6.0\Lab10.pdb
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\obj\Debug\net6.0\Lab10.csproj.AssemblyReference.cache
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\obj\Debug\net6.0\Lab10.GeneratedMSBuildEditorConfig.editorconfig
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\obj\Debug\net6.0\Lab10.AssemblyInfoInputs.cache
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\obj\Debug\net6.0\Lab10.AssemblyInfo.cs
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\obj\Debug\net6.0\Lab10.csproj.CoreCompileInputs.cache
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\obj\Debug\net6.0\Lab10.dll
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\obj\Debug\net6.0\refint\Lab10.dll
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\obj\Debug\net6.0\Lab10.pdb
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\obj\Debug\net6.0\Lab10.genruntimeconfig.cache
+D:\Прога\2 курс\ООП\OOP_1sem\Lab10_sol\Lab10\obj\Debug\net6.0\ref\Lab10.dll
