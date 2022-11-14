@@ -46,7 +46,7 @@ namespace Laba10
                 case 2:
                     List<SuperString> strList = new List<SuperString>();
                     strList.Add(new SuperString("Hello world"));
-                    strList.Add(new SuperString("How do you do"));
+                    strList.Add(new SuperString("How do you do?"));
                     strList.Add(new SuperString("Mommy daddy"));
                     strList.Add(new SuperString("all my friends are toxic"));
                     strList.Add(new SuperString("i need new friends"));
@@ -73,7 +73,11 @@ namespace Laba10
                     Console.WriteLine(strList.First(a => a.StringValue.Contains('.') || a.StringValue.Contains('?')));
 
                     // Последнюю строку с самым коротким словом
-                    Console.WriteLine(strList.Where(a => a.OrderBy(a => a.GetNumOfSymbols())));
+                    var orderdList = from s in strList orderby s.GetNumOfSymbols() select s;
+                    Console.WriteLine(orderdList.First());
+
+                    // Упорядоченный массив по первому слову
+                    var orderdByFirstWord = from s in strList orderby s.StringValue.Split()[0] select s;
 
                     break;
         }
