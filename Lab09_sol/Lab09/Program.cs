@@ -40,14 +40,23 @@ namespace Lab09
             int number = 22;
             Console.WriteLine("Содержит ли стэк заданное значение: " + st.Contains(number));
 
-
+            Console.ForegroundColor = ConsoleColor.Magenta;
             var myCollection = new ObservableCollection<Furniture>();
+            myCollection.CollectionChanged += SayChange;
+
 
             myCollection.Add(new Furniture("Шкаф", 200));
             myCollection.Add(new Furniture("Дверь", 500));
             myCollection.Add(new Furniture("Стол", 1000));
 
             myCollection.RemoveAt(2);
+        }
+
+        private static void SayChange(object sender, NotifyCollectionChangedEventArgs e)
+        {
+            if (e.Action == NotifyCollectionChangedAction.Add)
+                Console.WriteLine("|Add complete|");
+            else if (e.Action == NotifyCollectionChangedAction.Remove) Console.WriteLine("|Remove complete|");
         }
     }
 }
