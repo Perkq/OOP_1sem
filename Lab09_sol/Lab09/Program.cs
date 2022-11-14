@@ -22,10 +22,32 @@ namespace Lab09
             arr.Add('q');
             arr.Add(true);
 
+            Console.WriteLine("Элементы ArrayList");
+            foreach (var tmp in arr) Console.WriteLine(tmp);
             
 
             Stack st = new Stack(arr);
+            Console.WriteLine("Элементы Stack");
 
+            foreach (var tmp in st) Console.WriteLine(tmp);
+
+
+            arr.AddRange(st);
+            Console.WriteLine("Элементы ArrayListX2");
+            foreach (var tmp in arr) Console.WriteLine(tmp);
+
+
+            int number = 22;
+            Console.WriteLine("Содержит ли стэк заданное значение: " + st.Contains(number));
+
+
+            var myCollection = new ObservableCollection<Furniture>();
+
+            myCollection.Add(new Furniture("Шкаф", 200));
+            myCollection.Add(new Furniture("Дверь", 500));
+            myCollection.Add(new Furniture("Стол", 1000));
+
+            myCollection.RemoveAt(2);
         }
     }
 }

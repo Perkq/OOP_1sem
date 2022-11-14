@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lab09
 {
-    class furniture
+    class Furniture
     {
         private string name;
         private int price;
@@ -22,6 +22,12 @@ namespace Lab09
         {
             get { return price; }
             set { price = value; }
+        }
+
+        public Furniture(string curName, int curPrice)
+        {
+            name = curName;
+            price = curPrice;
         }
 
     }
