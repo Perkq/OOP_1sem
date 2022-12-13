@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTVProgram xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TVProgram>
+    <Duration>infinity</Duration>
+  </TVProgram>
+  <TVProgram>
+    <Duration>infinity</Duration>
+  </TVProgram>
+  <TVProgram>
+    <Duration>infinity</Duration>
+  </TVProgram>
+</ArrayOfTVProgram>

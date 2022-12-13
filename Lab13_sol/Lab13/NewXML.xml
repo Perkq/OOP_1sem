@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Студенты>
+  <student year="2003">
+    <name>Артем</name>
+  </student>
+  <stud year="2004">
+    <name>Полина</name>
+  </stud>
+</Студенты>
