@@ -97,6 +97,26 @@ namespace Lab07
                         }
                         Console.WriteLine(testEq != testEqSec);
                         Console.WriteLine(testEq == testEqSec);
+
+                        Matrix<Ad> objExample = new Matrix<Ad>(4, 4);
+
+                        Ad frst = new Ad(10, "hour");
+                        Ad sec = new Ad(30, "day");
+                        Ad thrd = new Ad(15, "week");
+
+                        objExample.Add(frst);
+                        objExample.Add(sec);
+                        objExample.Add(thrd);
+
+                        for (int i = 0; i < objExample.RowsNum; i++)
+                        {
+                            for (int q = 0; q < objExample.ColNum; q++)
+                            {
+                                objExample[i, q] = i;
+                                objExample[i, q] = q;
+                            }
+                        }
+                        objExample.InFile();
                         break;
                     case 4:
                         Matrix<int> testInt = new Matrix<int>(4, 4);
@@ -128,30 +148,12 @@ namespace Lab07
                 floatExample.Add(12.4123);
                 floatExample.Add(124.4123);
 
-                Matrix<Ad> objExample = new Matrix<Ad>(4, 4);
-
-                Ad frst = new Ad(10, "hour");
-                Ad sec = new Ad(30, "day");
-                Ad thrd = new Ad(15, "week");
-
-                objExample.Add(frst);
-                objExample.Add(sec);
-                objExample.Add(thrd);
-
-                for (int i = 0; i < objExample.RowsNum; i++)
-                {
-                    for (int q = 0; q < objExample.ColNum; q++)
-                    {
-                        objExample[i, q] = i;
-                        objExample[i, q] = q;
-                    }
-                }
-                objExample.InFile();
+           
 
             }
             catch
             {
-                Console.WriteLine("ОШИБКА я ЛОХ!!!!");
+                Console.WriteLine("ОШИБКА!!!!");
             }
             finally
             {

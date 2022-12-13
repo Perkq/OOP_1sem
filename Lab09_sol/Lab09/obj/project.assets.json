@@ -8,28 +8,20 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\n2309\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\n2309\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Прога\\2 курс\\ООП\\OOP_1sem\\Lab09_sol\\Lab09\\Lab09.csproj",
+      "projectUniqueName": "F:\\Прога\\2 курс\\ООП\\OOP_1sem\\Lab09_sol\\Lab09\\Lab09.csproj",
       "projectName": "Lab09",
-      "projectPath": "D:\\Прога\\2 курс\\ООП\\OOP_1sem\\Lab09_sol\\Lab09\\Lab09.csproj",
+      "projectPath": "F:\\Прога\\2 курс\\ООП\\OOP_1sem\\Lab09_sol\\Lab09\\Lab09.csproj",
       "packagesPath": "C:\\Users\\n2309\\.nuget\\packages\\",
-      "outputPath": "D:\\Прога\\2 курс\\ООП\\OOP_1sem\\Lab09_sol\\Lab09\\obj\\",
+      "outputPath": "F:\\Прога\\2 курс\\ООП\\OOP_1sem\\Lab09_sol\\Lab09\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\n2309\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -69,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

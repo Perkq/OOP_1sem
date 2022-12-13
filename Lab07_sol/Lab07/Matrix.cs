@@ -220,8 +220,8 @@ namespace Lab07
 
         public Matrix<T> GetFile()
         {
-            string path = "lab7.txt";
-            StreamReader reader = new StreamReader(path);
+            string path = @"D:\Прога\2 курс\ООП\OOP_1sem\Lab07_sol\Lab07\lab7.txt";
+            using StreamReader reader = new StreamReader(path);
             string? line;
             line = reader.ReadLine();
             string[] arr = line.Split(' ');
@@ -250,8 +250,8 @@ namespace Lab07
 
         public void InFile()
         {
-            string path = "lab7.txt";
-            StreamWriter writer = new StreamWriter(path, true);
+            string path = @"D:\Прога\2 курс\ООП\OOP_1sem\Lab07_sol\Lab07\lab7.txt";
+            using StreamWriter writer = new StreamWriter(path, true);
             
                 writer.WriteLine(rows + " " + columns);
                 for (int i = 0; i < rows; i++)

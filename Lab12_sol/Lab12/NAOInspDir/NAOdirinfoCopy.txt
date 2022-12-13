@@ -1,0 +1,58 @@
+|Directories| [
+$RECYCLE.BIN
+.minecraft
+AHK
+Epic Games
+FACEIT AC
+FallGuys
+Games
+HS
+matlAB
+msdownld.tmp
+Multisim
+NI Circuit Design Suite 14.0.1
+Office 2013 Repack by SPecialiST
+OpenServer
+Opera
+Pract
+Python
+SE_Lab15
+SidMeiersCivilizationVI
+Steam
+System Volume Information
+Task
+Telegram Desktop
+temporary
+Torrent
+Virtttt
+Virtualka
+VLC
+vs_bootstrapper_d15
+Winrar
+WoT
+wps_download
+Загрузки
+Курсы
+Новая папка
+образ
+Прога
+рпа
+Фильмы
+]
+|Files| [
+Artem_Nekhayonok.xlsx
+B16sONoYouo.jpg
+ManagedNativeWifi-master.zip
+Office-2013-Word-Excel-Powerpoint-x64.exe
+open_server_panel_5_4_1_setup.exe
+photo_2022-09-20_19-53-50.jpg
+pr5gjove.exe
+SE_Lab15.rar
+tmxye99n.exe
+VisualStudioSetup (1).exe
+VisualStudioSetup.exe
+VSCodeUserSetup-x64-1.73.1.exe
+winrar-x64-611ru.exe
+winsdksetup.exe
+wps_wid.cid-1692696664.1669231189.exe
+]

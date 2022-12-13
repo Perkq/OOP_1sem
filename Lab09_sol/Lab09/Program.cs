@@ -12,9 +12,28 @@ using System.Threading.Tasks;
 namespace Lab09
 {
     class Program
-    {
+    { 
         static void Main(string[] args)
         {
+            MyCollection<int> intColl = new MyCollection<int>();
+            intColl.Add(123);
+            intColl.Add(667);
+            intColl.Add(998);
+
+            intColl.Remove(667);
+
+            intColl.Print();
+
+
+
+            Hashtable hash = new Hashtable();
+
+            hash.Add(12, "qwr");
+            hash.Add('q', 355);
+            Console.WriteLine(hash[12]);
+
+
+
             ArrayList arr = new ArrayList();
             arr.Add(22);
             arr.Add("lol");

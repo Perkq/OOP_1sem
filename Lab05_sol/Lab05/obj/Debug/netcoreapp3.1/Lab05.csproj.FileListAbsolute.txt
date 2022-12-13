@@ -1,0 +1,10 @@
+F:\Прога\2 курс\ООП\OOP_1sem\Lab05_sol\Lab05\bin\Debug\netcoreapp3.1\Lab05.deps.json
+F:\Прога\2 курс\ООП\OOP_1sem\Lab05_sol\Lab05\bin\Debug\netcoreapp3.1\Lab05.dll
+F:\Прога\2 курс\ООП\OOP_1sem\Lab05_sol\Lab05\bin\Debug\netcoreapp3.1\Lab05.pdb
+F:\Прога\2 курс\ООП\OOP_1sem\Lab05_sol\Lab05\obj\Debug\netcoreapp3.1\Lab05.csproj.AssemblyReference.cache
+F:\Прога\2 курс\ООП\OOP_1sem\Lab05_sol\Lab05\obj\Debug\netcoreapp3.1\Lab05.GeneratedMSBuildEditorConfig.editorconfig
+F:\Прога\2 курс\ООП\OOP_1sem\Lab05_sol\Lab05\obj\Debug\netcoreapp3.1\Lab05.AssemblyInfoInputs.cache
+F:\Прога\2 курс\ООП\OOP_1sem\Lab05_sol\Lab05\obj\Debug\netcoreapp3.1\Lab05.AssemblyInfo.cs
+F:\Прога\2 курс\ООП\OOP_1sem\Lab05_sol\Lab05\obj\Debug\netcoreapp3.1\Lab05.csproj.CoreCompileInputs.cache
+F:\Прога\2 курс\ООП\OOP_1sem\Lab05_sol\Lab05\obj\Debug\netcoreapp3.1\Lab05.dll
+F:\Прога\2 курс\ООП\OOP_1sem\Lab05_sol\Lab05\obj\Debug\netcoreapp3.1\Lab05.pdb
