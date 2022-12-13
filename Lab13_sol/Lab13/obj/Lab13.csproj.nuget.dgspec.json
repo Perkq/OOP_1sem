@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Прога\\2 курс\\ООП\\OOP_1sem\\Lab13_sol\\Lab13\\Lab13.csproj": {}
+  },
+  "projects": {
+    "F:\\Прога\\2 курс\\ООП\\OOP_1sem\\Lab13_sol\\Lab13\\Lab13.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Прога\\2 курс\\ООП\\OOP_1sem\\Lab13_sol\\Lab13\\Lab13.csproj",
+        "projectName": "Lab13",
+        "projectPath": "F:\\Прога\\2 курс\\ООП\\OOP_1sem\\Lab13_sol\\Lab13\\Lab13.csproj",
+        "packagesPath": "C:\\Users\\n2309\\.nuget\\packages\\",
+        "outputPath": "F:\\Прога\\2 курс\\ООП\\OOP_1sem\\Lab13_sol\\Lab13\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\n2309\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Clu.Plugin.WebServices.HttpClient": {
+              "target": "Package",
+              "version": "[1.0.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "SimpleSOAPClient": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SoapCore": {
+              "target": "Package",
+              "version": "[1.1.0.36, )"
+            },
+            "SoapFormatter": {
+              "target": "Package",
+              "version": "[1.1.9, )"
+            },
+            "SoapHttpClient": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "System.Runtime.Serialization.Formatters": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.Serialization.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
