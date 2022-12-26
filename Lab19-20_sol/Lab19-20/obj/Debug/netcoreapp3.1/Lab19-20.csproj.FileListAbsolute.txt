@@ -1,0 +1,14 @@
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\bin\Debug\netcoreapp3.1\Lab19-20.exe
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\bin\Debug\netcoreapp3.1\Lab19-20.deps.json
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\bin\Debug\netcoreapp3.1\Lab19-20.runtimeconfig.json
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\bin\Debug\netcoreapp3.1\Lab19-20.runtimeconfig.dev.json
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\bin\Debug\netcoreapp3.1\Lab19-20.dll
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\bin\Debug\netcoreapp3.1\Lab19-20.pdb
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\obj\Debug\netcoreapp3.1\Lab19-20.csproj.AssemblyReference.cache
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\obj\Debug\netcoreapp3.1\Lab19-20.GeneratedMSBuildEditorConfig.editorconfig
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\obj\Debug\netcoreapp3.1\Lab19-20.AssemblyInfoInputs.cache
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\obj\Debug\netcoreapp3.1\Lab19-20.AssemblyInfo.cs
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\obj\Debug\netcoreapp3.1\Lab19-20.csproj.CoreCompileInputs.cache
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\obj\Debug\netcoreapp3.1\Lab19-20.dll
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\obj\Debug\netcoreapp3.1\Lab19-20.pdb
+F:\Прога\2 курс\ООП\OOP_1sem\Lab19-20_sol\Lab19-20\obj\Debug\netcoreapp3.1\Lab19-20.genruntimeconfig.cache
