@@ -5,3 +5,11 @@ D:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\obj\Debug\Lab_04.cspro
 D:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\obj\Debug\Lab_04.csproj.CoreCompileInputs.cache
 D:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\obj\Debug\Lab_04.exe
 D:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\obj\Debug\Lab_04.pdb
+F:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\bin\Debug\Lab_04.exe.config
+F:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\bin\Debug\Lab_04.exe
+F:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\bin\Debug\Lab_04.pdb
+F:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\obj\Debug\Lab_04.csproj.AssemblyReference.cache
+F:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\obj\Debug\Lab_04.csproj.SuggestedBindingRedirects.cache
+F:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\obj\Debug\Lab_04.csproj.CoreCompileInputs.cache
+F:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\obj\Debug\Lab_04.exe
+F:\Прога\2 курс\ООП\OOP_1sem\Lab_04sol\Lab_04\obj\Debug\Lab_04.pdb

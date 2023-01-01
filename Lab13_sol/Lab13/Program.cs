@@ -96,7 +96,7 @@ namespace Lab13
 
             Console.WriteLine("Inter the year for searching: ");
             string yearXML = Console.ReadLine();
-            var allAlbums = root.Elements("stud");
+            var allAlbums = root.Elements("animal");
 
             foreach (var item in allAlbums)
             {

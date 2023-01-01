@@ -9,10 +9,12 @@ namespace Lab17_18
         {
             Administrator admin = new Administrator();
             FlightBuilder flightBuilder = new PassengerFlightBuilder();
-            
-            /*flightBuilder.SetWhere("Moscow");
-            Console.WriteLine(flightBuilder.Flight.Where);*/
-            
+
+            Singleton temp = new Singleton("Console", ConsoleColor.Red, ConsoleColor.Black);
+
+            flightBuilder.SetWhere("Moscow");
+            Console.WriteLine(flightBuilder.Flight.Where);
+
             List<Flight> flights = new List<Flight>()
             {
                 new Flight(1, "Вильнюс", "Лондон", new DateTime(2023, 01, 12, 18, 25, 00), "Boeing 737", 200, 250.23),
@@ -56,8 +58,6 @@ namespace Lab17_18
                     "5 - отменить заказ\n" +
                     "6 - выход");
 
-/*                    int option = int.Parse(Console.ReadLine());
-*/
                     switch (int.Parse(Console.ReadLine()))
                     {
                         case 1:

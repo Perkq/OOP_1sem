@@ -139,6 +139,7 @@ namespace Lab_11
                     {
                         if (fileForInfortmation != null) fileForInfortmation.WriteLine(method);
                     }
+                    //Console.WriteLine(collectionParameters[i].ParameterType.Name);
                 }
             }
         }

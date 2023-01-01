@@ -12,7 +12,7 @@ namespace Lab17_18
         public string settings;
         public ConsoleColor ForegroundColor { get; private set; }
         public ConsoleColor BackgroundColor { get; private set; }
-        private Singleton(string settings, ConsoleColor forColor, ConsoleColor backColor)
+        public Singleton(string settings, ConsoleColor forColor, ConsoleColor backColor)
         {
             this.settings = settings;
             ForegroundColor = forColor;
